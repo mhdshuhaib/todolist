@@ -22,7 +22,7 @@ function getList() {
       console.log(arr[i].userId);
       if (arr[i].completed == false) {
         check = ` <td>
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked onchange="return Validate()};">
+        <input class="form-check-input" type="checkbox" value=""  onchange="return Validate()"};>
 
         </td>`
 
